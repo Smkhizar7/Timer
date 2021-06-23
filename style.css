@@ -1,0 +1,114 @@
+/* Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Headland+One&family=Ubuntu&display=swap');
+
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+    font-family: 'Ubuntu', sans-serif;
+    outline: none;
+}
+body{
+    /* background: rgb(0,35,36); */
+    /* background: linear-gradient(24deg, rgba(0,35,36,1) 0%, rgba(38,13,60,1) 0%, rgba(0,255,196,1) 97%); */
+    /* background: linear-gradient(90deg, rgba(38,13,60,1) 50%, rgba(0,35,36,1) 50%); */
+    background: linear-gradient(34deg, rgba(38,13,60,1) 10%, rgba(0,35,36,1) 60%);
+    /* background: rgb(53,72,73);
+    background: linear-gradient(204deg, rgba(83,72,73,1) 0%, rgba(41,42,36,0) 0%, rgba(14,39,62,1) 97%); */
+}
+
+.main-body {
+    max-width: 1200px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.main-container {
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(90deg, #e3ffe775 0%, #d9e7ff57 100%);
+    border-radius: 5px;
+    padding: 20px 0px;
+    box-shadow: 0px 0px 12px 3px rgba(22, 21, 21, 0.134);
+}
+
+.heading {
+    font-size: 3.3em;
+    font-family: 'Headland One', serif;
+    color: rgb(255, 255, 255);
+    text-shadow: 1px 1px 1px sandybrown;
+    margin: 10px 0px;
+}
+
+
+/* Count-down Section  */
+.count-down {
+    font-size: 3em;
+    color: rgb(255, 255, 255);
+    text-shadow: 1px 1px 1px sandybrown;
+    margin: 10px 0px;
+    display: flex;
+}
+span {
+    display: block;
+    text-align: center;
+    padding-bottom: 3px;
+}
+#mins {
+    width: 65px;
+    border-bottom: 1px solid white;
+}
+#sec {
+    width: 65px;
+    border-bottom: 1px solid white;
+}
+.colon {
+    position: relative;
+    bottom: 4px;
+}
+/* For Input */
+input {
+    width: 100%;
+    background-color: transparent;
+    color: rgb(255, 255, 255);
+    text-shadow: 1px 1px 1px sandybrown;
+    border: none;
+    font-size: 1em;
+    text-align: center;
+}
+
+/* Button Section */
+.btn-container {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 70%;
+    margin: 15px auto;
+}
+button {
+    display: block;
+    background-color: transparent;
+    font-size: 1.2em;
+    padding: .4rem .8rem;
+    border-radius: 3px;
+    border: 1px solid #e3ffe7;
+    color: rgb(255, 255, 255);
+    text-shadow: 1px 1px 1px sandybrown;
+    cursor: pointer;
+}
+button:active{
+    background-color: rgba(255, 255, 255, .134);
+}
+#set-timer {
+    position: fixed ;
+    top: 6%;
+    right: 5%;
+    /* box-shadow: 0px 0px 6px 3px rgb(221, 216, 216); */
+    box-shadow: 0px 0px 1px 2px rgba(221, 216, 216,0.2);
+}
